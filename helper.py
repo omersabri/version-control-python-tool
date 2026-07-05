@@ -4,3 +4,6 @@ def calculate_total(price, quantity):
 
 def generate_summary(total):
     return f"Summary: the final total is £{total}"
+
+def average_score(scores):
+    return sum(scores) / len(scores)
