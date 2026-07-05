@@ -1,5 +1,5 @@
 def calculate_total(price, quantity):
-    return price * quantity
+    return price * quantity * 10
 
 
 def generate_summary(total):
